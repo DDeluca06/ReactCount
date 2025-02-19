@@ -1,7 +1,7 @@
 import './App.css';
-import Counter from "./Counter";
-import { CounterProvider } from './CounterContext.tsx';
-import CounterDisplay from './CounterDisplay.tsx';
+import Counter from "./components/Counter";
+import { CounterProvider } from './components/CounterContext';
+import CounterDisplay from './components/CounterDisplay';
 
 function App() {
   return (
